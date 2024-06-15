@@ -55,17 +55,17 @@ Para ver as configurações, execute:
 git config --list
 ```
 
-SSH
+## SSH
 Para gerar uma chave SSH, execute:
 
-bash
-Copiar código
+```bash
 ssh-keygen
+```
 Aperte enter até concluir a geração. Para pegar o valor da chave gerada, execute:
 
-bash
-Copiar código
+```bash
 cat ~/.ssh/id_rsa.pub
+```
 Backend
 JDK 11
 Para instalar o JDK 11, abra o terminal e execute:
